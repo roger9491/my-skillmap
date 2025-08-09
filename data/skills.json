@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": "soft",
+      "name": "軟實力",
+      "color": "#60a5fa",
+      "nodes": [
+        {
+          "id": "communication",
+          "name": "溝通表達",
+          "level": 4,
+          "summary": "跨部門協作、需求澄清、衝突管理",
+          "examples": [
+            {
+              "title": "跨部門成本優化提案",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "name": "硬實力",
+      "color": "#34d399",
+      "nodes": [
+        {
+          "id": "backend",
+          "name": "Backend Development",
+          "level": 5,
+          "summary": "Java/Spring Boot、Node.js、分散式系統",
+          "subskills": [
+            { "name": "Java", "level": 5 },
+            { "name": "Spring Boot", "level": 5 },
+            { "name": "Node.js", "level": 3 }
+          ],
+          "examples": [
+            { "title": "DSP/RTB 投放平台", "link": "#" }
+          ]
+        }
+      ]
+    }
+  ]
+}
